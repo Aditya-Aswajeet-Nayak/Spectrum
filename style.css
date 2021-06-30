@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+html, body{
+    height:100%;
+    width:100%;
+    font-family:'popins', sans-serif;
+    color:#222
+}
+.header {
+   position: relative;
+   background-image: url(banner.png);
+   min-height: 100vh;
+   background-size: cover;
+   background-position: center ;
+}
+.navbar{
+    padding:.8rem;
+
+}
+.navbar-nav li{
+    padding-right:20px
+}
+.nav-link{
+    font-size: 1.1rem !important;
+}
+hr{
+    box-sizing: border-box 1px solid #d5d5d5;
+}
+.about_us_h{
+    font-size: 42px;
+    font-weight: 500;
+    font-variant: small-caps;
+    position: relative;
+    display: inline-block;
+    padding-left: 100px;
+    text-decoration: solid;
+}
+.mainwing{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: blanchedalmond;
+    align-items: center;
+    float: center;
+    background: linear-gradient(
+    135deg
+    , rgb(252, 212, 36) 0%, rgb(156, 13, 3) 100%) center no-repeat fixed;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.mainproject{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: blanchedalmond;
+    align-items: center;
+    float: center;
+    background: linear-gradient(
+    135deg
+    , rgb(252, 212, 36) 0%, rgb(156, 13, 3) 100%) center no-repeat fixed;
+    padding: 10px;
+    margin-bottom: 20px;
+}
